@@ -1,0 +1,242 @@
+========== HEADER ==========
+.nav__logo
+John
+
+.nav__link
+Home - Skills - Qualification - Services - Projects - Contact
+
+
+========== HOME ==========
+.home__title
+Hello, I’m John <br>
+Web Designer, Developer, and coder <br>
+Based In Texas <br>
+
+.home__social
+https://www.linkedin.com/
+https://github.com/
+
+.home__info-title
+BIOGRAPHY
+CONTACT
+YEARS OF EXPERIENCE
+COMPLETED PROJECTS
+
+.home__info-description .home__info-number
+Hello, I'm John, Frontend Developer.
+Passionate about designing beautiful web
+interfaces. Based in Texas.
+
+Houston, Texas <br>
+admin@johngarciajr.com <br>
++1 281-935-0894 <br>
+
+Website Design <br>
+Web Developber <br>
+Web Coder <br>
+UI/UX Design <br>
+Graphic Designer <br>
+Photographer <br>
+Video Editor <br>
+ <br>
+
+02+
+
+4+
+
+4+
+
+
+========== SKILLS ==========
+.section__title
+Skills
+
+.section__subtitle
+My favorite skills
+
+.skills__title
+Frontend Developer 
+Web Designer
+
+.skills__name .skills__subtitle
+HTML
+Intermediate
+
+CSS
+Intermediate
+
+JavaScript
+Intermediate
+
+React
+Beginner
+
+Git
+Intermediate
+
+Figma
+Intermediate
+
+Adobe XD
+Intermediate
+
+Adobe Photoshop
+Intermediate
+
+Adobe After Effects
+Intermediate
+
+========== QUALIFICATION ==========
+.section__title
+Qualification
+
+.section__subtitle
+Experience & education
+
+.qualification__title
+Education
+Work
+
+.qualification__name .qualification__country .qualification__year
+Bachelor's Degree in Graphic Information Technology
+Focus Studies in Web Developer and Coding
+Perú - University
+2015 - 2023
+
+
+========== SERVICES ==========
+.section__title
+Services
+
+.section__subtitle
+What I offer
+
+.services__title .services__description
+UI/UX <br>
+Designer
+
+Service that provides the best quality and at 
+the request of the client, with professional 
+work and customer support.
+
+Website <br>
+Design
+
+Digital <br>
+Graphics
+
+Photo <br>
+Editing
+
+Video <br>
+Editing
+
+
+========== PROJECTS ==========
+.section__title
+Projects
+
+.section__subtitle
+Most recent work
+
+
+.projects__subtitle .projects__title .projects__button
+Web
+Modern Website
+View demo
+
+Design
+Application Design
+
+========== TESTIMONIAL ==========
+.section__title
+Testimonial
+
+.section__subtitle
+My client saying
+
+.testimonial__description .testimonial__name .testimonial__subtitle
+“First introduction with John was a good 
+impression. I was about to carry out my project at a good 
+cost, with excellent quality and attention. 
+Great service and recommended.”
+
+Jospeh Buelna
+Client
+
+
+========== CONTACT ==========
+.section__title
+Contact Me
+
+.section__subtitle
+Get in touch
+
+.contact__title
+Talk to me
+Write me your project
+
+.contact__data-title .contact__data-info .contact__button
+Email
+admin@johngarciajr.com
+
+Whatsapp
++1 281-935-0894
+Write me
+
+<!-- Insert a real number plus country code -->
+
+
+<!-- Insert your brand name or profile -->
+
+
+.contact__form-tag | placeholder
+Names
+Write your names
+
+Mail
+Write your email
+
+Project
+Write your project
+
+.contact__button
+Submit
+
+========== EMAIL JS CONTACT ==========
+
+// Check if the field has a value
+	// Add and remove color
+
+	// Show message	
+		Write all the input fields 
+
+// serviceID - templateID - #form - publicKey
+	// Show message and add color
+		Message sent 
+	
+	// Remove message after five seconds
+
+	// Send Error
+		OOPS! SOMETHING HAS FAILED...
+
+// To clear the input field
+========== FOOTER ==========
+.footer__title
+John Garcia Jr
+
+<p>
+Frontend Developer
+
+.footer__link
+Home
+Skills
+Projects
+
+.footer__social-link
+https://www.linkedin.com/
+https://github.com/
+https://dribbble.com/
+
+.footer__copy
+&#169; Copyright John Garcia Jr. All rights reserved
