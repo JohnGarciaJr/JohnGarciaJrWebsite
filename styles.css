@@ -495,7 +495,7 @@ body.dark-theme {
   justify-content: center;
 }
 
-.sevices__card {
+.services__card {
   position: relative;
   width: 228px;
   height: 322px;
@@ -544,7 +544,48 @@ body.dark-theme {
 
 
 /*=============== PROJECTS ===============*/
+.projects__container {
+  overflow: initial;
+}
 
+.projects_content {
+  display: grid;
+  justify-content: center;
+}
+
+.projects__img {
+  width: 250px;
+  border-radius: .75rem;
+  margin-bottom: 1.25rem;
+}
+
+.projects__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.projects__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+  margin: .5rem 0 1.25rem;
+}
+
+.projects__button {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+
+.projects__button i {
+  font-size: 1rem;
+  transition: transform .3s;
+}
+
+.projects__button:hover i {
+  transform: translateX(.25rem);
+}
 
 /* Swiper class */
 
