@@ -42,8 +42,7 @@ let swiperProjects = new Swiper(".projects__container", {
     pagination: {
       el: ".swiper-pagination",
     },
-    mousewheel: true,
-    keyboard: true,
+
   });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
