@@ -571,7 +571,7 @@ body.dark-theme {
 }
 
 .projects__button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
@@ -616,7 +616,7 @@ body.dark-theme {
   margin-bottom: 4.5rem;
 }
 
-.projects__container .swiper-pagniation-bullets {
+.projects__container .swiper-pagination-bullets {
   bottom: 0;
 }
 
