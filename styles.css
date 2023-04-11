@@ -273,7 +273,7 @@ body.dark-theme {
   background-color: var(--body-color);
   border: 1px solid var(--text-color-light);
   justify-self: center;
-  border-radius: 6.35rem;
+  border-radius: 6.25rem;
   place-items: center;
 }
 
@@ -293,21 +293,20 @@ body.dark-theme {
 }
 
 .home__shape-wawes,
-.home__shape-circles {
+.home__shape-circle {
   position: absolute;
   opacity: .1;
 }
 
 .home__shape-wawes {
-  top: 5rem;
-  left: -1.5rem;
   width: 50px ;
+  left: -1.5rem;
+  top: 5rem;
 }
 
-.home__shape-circles {
+.home__shape-circle {
   bottom: -2rem;
   right: -3rem;
-  width: 150px;
   transform: rotate(15deg);
   z-index: -1;
 }
