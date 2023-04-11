@@ -191,7 +191,7 @@ body.dark-theme {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .nav__menu {
     position: fixed;
     width: 88%;
@@ -233,8 +233,8 @@ body.dark-theme {
 
 .nav__close {
   position: absolute;
-  top: 1.5rem;
   right: 1.5rem;
+  bottom: .7rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
