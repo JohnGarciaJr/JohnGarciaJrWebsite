@@ -96,7 +96,18 @@ img {
 }
 
 /*=============== THEME ===============*/
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
 
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .3s;
+}
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -247,7 +258,9 @@ body.dark-theme {
 
 
 /* Active link */
-
+.active-link {
+  color: var(--title-color);
+}
 
 /*=============== HOME ===============*/
 .home__container {
@@ -848,27 +861,24 @@ body.dark-theme {
   position: fixed;
   right: 1rem;
   bottom: -30%;
-  background-color: var(--container-color);
-  box-shadow: 0 4px 12px hsla(0, 0%, 20%, .1);
+  background-color: var(--body-color);
+  box-shadow: 0 4px 12px hsl(207, 24%, 35&, .15);
   display: inline-flex;
-  padding: .25rem;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: var(--title-color);
   z-index: var(--z-tooltip);
-  opacity: .8;
-  transition: .4s;
+  transition: bottom .3s, transform: .3s;
 }
 
 .scrollup:hover {
-  opacity: 1;
-}
-
-.scrollup__icon {
-  font-size: 1.5rem;
-  color: var(--first-color);
+  transform: translateY(-.25rem);
 }
 
 /* Show Scroll Up*/
 .show-scroll {
-  bottom: 3rem;
+  bottom: 7.5rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
