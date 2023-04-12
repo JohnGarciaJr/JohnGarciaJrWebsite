@@ -279,7 +279,7 @@ body.dark-theme {
 
 .home__john {
   width: 170px;
-  height: 260px;
+  height: 220px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
   overflow: hidden;
@@ -289,7 +289,7 @@ body.dark-theme {
 }
 
 .home__john img {
-  width: 150px;
+  width: 160px;;
 }
 
 .home__shape-wawes,
