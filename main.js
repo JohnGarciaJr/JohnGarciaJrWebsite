@@ -56,6 +56,43 @@ let swiperProjects = new Swiper(".projects__container", {
 
 
 /*=============== EMAIL JS ===============*/
+const contactForm = document.getElementById('contact-form'),
+      contactName = document.getElementById('contact-name'),
+      contactEmail = document.getElementById('contact-email'),
+      contactProject = document.getElementById('contact-project'),
+      contactMessage = document.getElementById('contact-message')
+
+const sendEmail = (e) => {
+    e.preventDefault()
+
+    if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {
+
+        contactMessage.classList.remove('color-blue')
+        contactMessage.classList.add('color-red')
+
+
+      contactMessage.textContent = 'Write all the input fields please'
+  }
+      else {
+      emailjs.sendForm(service_84t38tf, template_f7kas56, #contact-form, 't-UtHeu1N4SRiDKWd4')
+      .then(() => {
+        contactMessage.classList.add('color-blue')
+        contactMessage.textContent = 'Your message has been sent!'
+
+        setTimeout(() => {
+          contactMessage.textContent = ''
+      }, 5000)
+    }, (error) => {
+        alert('Oops! Something went wrong, please try again...', error)
+    })
+
+    contactName.value = ''
+    contactEmail.value = ''
+    contactProject.value = ''
+  }
+}
+
+contactForm.addEventListener('submit', sendEmail)
 
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/

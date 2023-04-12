@@ -760,8 +760,21 @@ body.dark-theme {
   font-weight: initial;
 }
 
-/* Status color */
+.contact__message {
+  font-size: va(--small-font-size);
+  position: absolute;
+  bottom: 2.8rem;
+  left: 1.5rem;
+}
 
+/* Status color */
+.color-red {
+  color: hsl(4, 71%, 50%);
+}
+
+.color-blue {
+  color: hsl(207, 56%, 45%);
+}
 
 /*=============== FOOTER ===============*/
 
