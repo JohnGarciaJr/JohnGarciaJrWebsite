@@ -547,7 +547,7 @@ body.dark-theme {
   overflow: initial;
 }
 
-.projects_content {
+.projects__content {
   display: grid;
   justify-content: center;
 }
